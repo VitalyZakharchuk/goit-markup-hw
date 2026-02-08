@@ -1,0 +1,78 @@
+body {
+  font-family: Robot;
+}
+ul li {
+  list-style-type: none;
+}
+span {
+  color: #4d5ae5;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+button {
+  cursor: pointer;
+}
+/* Heder */
+
+header a {
+  text-decoration: none;
+}
+.logo {
+  font-weight: bold;
+  color: #2e2f42;
+  font-size: 18px;
+}
+.nav-menu-link a {
+  color: #2e2f42;
+  text-decoration: none;
+}
+.nav-menu-link a:hover,
+.nav-menu-link a:focus {
+  color: #404bbf;
+}
+.contact-adress a {
+  color: #434455;
+}
+.contact-adress a:hover {
+  color: #404bbf;
+}
+/**/
+.effect-solutions {
+  background-color: #2e2f42;
+}
+.btn-order {
+  background-color: #4d5ae5;
+  color: white;
+}
+.features-list h3 {
+  color: #2e2f42;
+}
+.features-list p {
+  color: #434455;
+}
+.team {
+  background-color: #f4f4fd;
+}
+.team h2 {
+  color: #2e2f42;
+}
+.team h3 {
+  text-align: center;
+  color: #2e2f42;
+}
+.team p {
+  text-align: center;
+  color: #434455;
+}
+footer {
+  background-color: #2e2f42;
+}
+.footer-logo {
+  text-decoration: none;
+  color: #f4f4fd;
+}
+footer p {
+  color: #f4f4fd;
+}
