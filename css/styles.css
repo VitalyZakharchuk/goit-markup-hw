@@ -32,7 +32,7 @@ img {
   height: auto;
 }
 .section {
-  padding: 120px 0;
+  padding: 188px 0;
 }
 
 .logo {
@@ -47,6 +47,7 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 .visually-hidden {
   position: absolute;
@@ -77,7 +78,7 @@ img {
   color: #2e2f42;
 }
 .header-info {
-  padding: 24px.0;
+  padding: 24px 0;
 }
 .header-log span {
   color: #4d5ae5;
@@ -96,6 +97,7 @@ img {
 }
 .link {
   color: #2e2f42;
+  display: inline-block;
 }
 .link:hover {
   font-weight: 500;
@@ -132,6 +134,7 @@ img {
 }
 .content-solution {
   display: block;
+  width: 540px;
   text-align: center;
 }
 .ef-title {
@@ -151,6 +154,7 @@ img {
   margin-top: 48px;
   padding: 16px 32px;
   border-radius: 4px;
+  border: none;
 }
 .btn-order:focus {
   background-color: #404bbf;
@@ -165,7 +169,8 @@ img {
   justify-content: space-between;
 }
 .features-list {
-  padding-right: 24px;
+  padding: 0 24px;
+  width: 264px;
 }
 .features-title {
   font-weight: 500;
@@ -194,7 +199,8 @@ img {
   padding: 32px 16px;
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-top: none;
-  border-radius: 0 0 15px 15px;
+  border-radius: 0 0 4px 4px;
+  background-color: #fff;
 }
 .team-title {
   font-weight: 700;
@@ -238,6 +244,8 @@ img {
 }
 .portfolio-list {
   background-color: white;
+  width: 360px;
+  padding: 48px 24px;
 }
 .port-des {
   padding: 32px 16px;
@@ -248,7 +256,7 @@ img {
 .port-pos {
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
+
   padding-top: 72px;
 }
 .port-name {
@@ -268,10 +276,10 @@ img {
 /* #endregion */
 /* #region Footer */
 .footer {
+  padding: 100px 0;
   background-color: #2e2f42;
 }
 .footer-content {
-  padding: 100px 0;
   width: 264px;
 }
 .footer-logo {
