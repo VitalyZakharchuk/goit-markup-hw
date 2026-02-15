@@ -5,14 +5,34 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 ul {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 a {
   text-decoration: none;
 }
 button {
   cursor: pointer;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.section {
+  padding: 120px 0;
 }
 
 .logo {
@@ -24,22 +44,55 @@ button {
   letter-spacing: 0.03em;
   line-height: 1.16667;
 }
-/* #region Header */
+.container {
+  width: 1158px;
+  margin: 0 auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
+/* #region Header */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  margin-bottom: 12px;
+}
+.header > .container {
+  display: flex;
+  justify-content: space-between;
+}
+.nav {
+  display: flex;
+}
 .header-log {
   color: #2e2f42;
+}
+.header-info {
+  padding: 24px.0;
 }
 .header-log span {
   color: #4d5ae5;
 }
 .nav-menu {
   text-decoration: none;
+  display: flex;
+  margin-left: 76px;
 }
 .nav-menu-link {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-right: 40px;
 }
 .link {
   color: #2e2f42;
@@ -51,6 +104,9 @@ button {
 }
 .link:active {
   color: #404bbf;
+}
+.text-adress {
+  display: flex;
 }
 .list {
   font-weight: 400;
@@ -66,17 +122,23 @@ button {
 .list:hover {
   color: #404bbf;
 }
+.contact-list {
+  padding-left: 40px;
+}
 /* #endregion */
 /* #region Effect Solutions */
 .effect-solutions {
   background-color: #2e2f42;
+}
+.content-solution {
+  display: block;
+  text-align: center;
 }
 .ef-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
   letter-spacing: 0.02em;
-  text-align: center;
   color: white;
 }
 .btn-order {
@@ -86,6 +148,9 @@ button {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: white;
+  margin-top: 48px;
+  padding: 16px 32px;
+  border-radius: 4px;
 }
 .btn-order:focus {
   background-color: #404bbf;
@@ -95,6 +160,13 @@ button {
 }
 /* #endregion */
 /* #region Our Features */
+.group-list {
+  display: flex;
+  justify-content: space-between;
+}
+.features-list {
+  padding-right: 24px;
+}
 .features-title {
   font-weight: 500;
   font-size: 20px;
@@ -114,6 +186,16 @@ button {
 .team {
   background-color: #f4f4fd;
 }
+.team-des {
+  display: flex;
+}
+.exp-team {
+  display: block;
+  padding: 32px 16px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-top: none;
+  border-radius: 0 0 15px 15px;
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -123,7 +205,9 @@ button {
   color: #2e2f42;
 }
 .team-list {
-  background-color: white;
+  padding-top: 59px;
+  padding-right: 24px;
+  display: block;
 }
 
 .team-name {
@@ -155,7 +239,18 @@ button {
 .portfolio-list {
   background-color: white;
 }
-
+.port-des {
+  padding: 32px 16px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-top: none;
+  border-radius: 0 0 15px 15px;
+}
+.port-pos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding-top: 72px;
+}
 .port-name {
   font-weight: 500;
   font-size: 20px;
@@ -175,6 +270,10 @@ button {
 .footer {
   background-color: #2e2f42;
 }
+.footer-content {
+  padding: 100px 0;
+  width: 264px;
+}
 .footer-logo {
   color: #f4f4fd;
 }
@@ -187,5 +286,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  padding-top: 16px;
 }
 /* #endregion */
