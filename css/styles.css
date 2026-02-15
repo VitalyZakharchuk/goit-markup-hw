@@ -22,11 +22,10 @@ button {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.03em;
+  line-height: 1.16667;
 }
 /* #region Header */
-.nav {
-  width: 1128px;
-}
+
 .header-logo {
   color: #2e2f42;
 }
@@ -41,6 +40,9 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.link {
+  color: #2e2f42;
 }
 .link:hover {
   font-weight: 500;
@@ -58,6 +60,9 @@ button {
   color: #434455;
   font-style: normal;
 }
+.list:focus {
+  color: #404bbf;
+}
 .list:hover {
   color: #404bbf;
 }
@@ -67,7 +72,7 @@ button {
   background-color: #2e2f42;
 }
 .ef-title {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
   letter-spacing: 0.02em;
@@ -82,8 +87,10 @@ button {
   background-color: #4d5ae5;
   color: white;
 }
-.btn-order:hover,
-:focus {
+.btn-order:focus {
+  background-color: #404bbf;
+}
+.btn-order:hover {
   background-color: #404bbf;
 }
 /* #endregion */
