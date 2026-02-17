@@ -76,10 +76,9 @@ img {
 }
 .header-log {
   color: #2e2f42;
+  padding-top: 24px;
 }
-.header-info {
-  padding: 24px 0;
-}
+
 .header-log span {
   color: #4d5ae5;
 }
@@ -98,6 +97,7 @@ img {
 .link {
   color: #2e2f42;
   display: inline-block;
+  padding: 24px 0;
 }
 .link:hover {
   font-weight: 500;
@@ -109,6 +109,7 @@ img {
 }
 .text-adress {
   display: flex;
+  gap: 40px;
 }
 .list {
   font-weight: 400;
@@ -124,13 +125,15 @@ img {
 .list:hover {
   color: #404bbf;
 }
-.contact-list {
-  padding-left: 40px;
+.contact-adress {
+  padding-top: 24px;
 }
+
 /* #endregion */
 /* #region Effect Solutions */
 .effect-solutions {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .content-solution {
   display: block;
@@ -166,10 +169,9 @@ img {
 /* #region Our Features */
 .group-list {
   display: flex;
-  justify-content: space-between;
+  gap: 24px;
 }
 .features-list {
-  padding: 0 24px 0 0;
   width: 264px;
 }
 .features-title {
