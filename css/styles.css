@@ -130,11 +130,11 @@ img {
 .nav-menu {
   text-decoration: none;
   display: flex;
-  margin-left: 76px;
+  margin-left: 120px;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1158px) {
   .nav-menu {
-    margin-left: 120px;
+    margin-left: 76px;
   }
 }
 @media only screen and (max-width: 767.98px) {
@@ -204,7 +204,7 @@ img {
 .list {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.2;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #434455;
   font-style: normal;
@@ -693,7 +693,7 @@ img {
 
 @media only screen and (min-width: 1158px) {
   .footer {
-    padding: 96px 0;
+    padding: 100px 0;
   }
 }
 .footer-content {
@@ -706,7 +706,7 @@ img {
   .footer-content {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
     align-items: baseline;
   }
 }
@@ -752,7 +752,6 @@ img {
 @media only screen and (min-width: 768px) {
   .footer-social {
     margin-top: 0;
-    margin-left: 24px;
   }
 }
 
@@ -811,13 +810,15 @@ img {
 }
 
 .footer-form-wrraper {
-  display: block;
+  display: flex;
+  flex-direction: column;
   margin-top: 16px;
-  gap: 24px;
+  gap: 16px;
 }
 @media only screen and (min-width: 768px) {
   .footer-form-wrraper {
     display: flex;
+    flex-direction: row;
     column-gap: 24px;
   }
 }
