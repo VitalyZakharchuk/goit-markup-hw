@@ -225,7 +225,7 @@ img {
   color: #404bbf;
 }
 .contact-adress {
-  padding-top: 16px;
+  padding-top: 12px;
 }
 @media only screen and (min-width: 1158px) {
   .contact-adress {
@@ -707,10 +707,19 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
+
     align-items: baseline;
   }
 }
-
+@media only screen and (min-width: 1158px) {
+  .footer-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    justify-content: right;
+    align-items: baseline;
+  }
+}
 .footer-des {
   width: 264px;
 }
