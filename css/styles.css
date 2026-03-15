@@ -116,7 +116,7 @@ img {
 }
 @media only screen and (min-width: 768px) {
   .header-log {
-    padding: 24px 16px;
+    padding: 24px 0;
   }
 }
 @media only screen and (min-width: 1158px) {
@@ -199,6 +199,7 @@ img {
     flex-direction: row;
     gap: 40px;
     margin-left: auto;
+    padding-top: 24px;
   }
 }
 .list {
@@ -224,14 +225,7 @@ img {
 .list:hover {
   color: #404bbf;
 }
-.contact-adress {
-  padding-top: 12px;
-}
-@media only screen and (min-width: 1158px) {
-  .contact-adress {
-    padding-top: 24px;
-  }
-}
+
 @media only screen and (max-width: 767.98px) {
   .contact-adress {
     display: none;
@@ -720,11 +714,7 @@ img {
 .footer-des {
   width: 264px;
 }
-@media only screen and (min-width: 1158px) {
-  .footer-des {
-    padding-right: 120px;
-  }
-}
+
 .footer-logo {
   display: flex;
   align-items: center;
@@ -753,7 +743,7 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   margin-top: 16px;
-  width: 264px;
+  width: px;
 }
 
 .footer-social {
@@ -801,11 +791,7 @@ img {
     margin-left: 0;
   }
 }
-@media only screen and (min-width: 1158px) {
-  .footer-form {
-    margin-left: 80px;
-  }
-}
+
 .logo-soc-med {
   text-align: center;
   margin-bottom: 16px;
